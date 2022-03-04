@@ -10,7 +10,6 @@ Para conectar em nosso banco de dados utilizamos o arquivo db.go localizado na p
 conexao := "user=postgres dbname=loja_golang password= host=localhost sslmode=disable"
 
 ``````
-d
 ## Como utilizar
 Primeiro de tudo para utilizar devemos criar nosso modelo de banco, neste caso utilizei o postgresql:
 ``````
