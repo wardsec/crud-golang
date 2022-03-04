@@ -4,5 +4,22 @@
 Este projeto foi feito para testar conceitos de crud na linaguem Go, utlizando o padrao MVC.
 
 
+## Conectando ao banco:
+Para conectar em nosso banco de dados utilizamos o arquivo db.go localizado na pasta db.
+``````
+conexao := "user=postgres dbname=loja_golang password= host=localhost sslmode=disable"
+
+``````
+d
 ## Como utilizar
-Para rodar este projeto é bem simples. Em sua primeira inicilização utilize o comando: go run main.go e sem sua segunda utilição rode o comando: fresh para ter um live server.
+Primeiro de tudo para utilizar devemos criar nosso modelo de banco, neste caso utilizei o postgresql:
+``````
+CREATE TABLE produtos(
+	id serial primary key,
+	nome varchar,
+	descricao varchar,
+	preco decimal,
+  quantidade integer)
+``````
+
+
