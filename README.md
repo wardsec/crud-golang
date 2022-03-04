@@ -20,5 +20,7 @@ CREATE TABLE produtos(
 	preco decimal,
   quantidade integer)
 ``````
+Para rodar o programa utilizamos o seguinte comando: go run main.go
+ou se preferir um live server utilize o comando fresh
 
 
